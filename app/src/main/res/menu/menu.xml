@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+
+    <item android:id="@+id/menu_item_suruslerim"
+        android:title="Şürüşlerim"
+        android:icon="@drawable/ic_money"
+       
+        
+        />
+
+    <item
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="Ödeme"
+        android:id="@+id/menu_item_odeme"/>
+
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/menu_item_kampanyalar"
+        android:title="Kampanyalar"
+        />
+
+    <item
+
+        android:id="@+id/menu_item_nasılsurulur"
+        android:title="Nasıl Sürülür?"/>
+
+    <item
+        android:id="@+id/menu_item_suruskurallari"
+        android:title="Sürüş Kuralları"/>
+
+    <item
+        android:id="@+id/menu_item_cikisyap"
+        android:title="Çıkış Yap"/>
+</menu>
